@@ -1,4 +1,4 @@
-package src.Stragety_Factory;
+package Strategy_Factory;
 
 public class PromotionDiscountStrategy implements DiscountStrategy {
 

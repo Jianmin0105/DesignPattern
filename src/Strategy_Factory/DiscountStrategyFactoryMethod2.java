@@ -1,9 +1,9 @@
-package src.Stragety_Factory;
+package Strategy_Factory;
 import java.util.*;
 
 public class DiscountStrategyFactoryMethod2 {
 	private Map<OrderType, DiscountStrategy> strategies;
-	private DiscountStrategyFactoryMethod2 {
+	private DiscountStrategyFactoryMethod2() {
 		strategies = new HashMap<>();
 		strategies.put(OrderType.NORMAL, new NormalDiscountStrategy());
 		strategies.put(OrderType.GROUP, new GroupDiscountStrategy());

@@ -1,4 +1,4 @@
-package Stragety_Factory;
+package Strategy_Factory;
 
 public class Order {
 	public OrderType orderType;
